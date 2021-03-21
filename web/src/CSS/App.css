@@ -1,0 +1,13 @@
+.projects-grid {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    /* align-items: stretch; */
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: space-between;
+  }
+
+.super-div {
+    height: 10000 px;
+}
