@@ -1,155 +1,155 @@
 let route = 'images/projects/';
 const softwareData = [
-    { 
-        name: "Earth Mozione",
-        srcImage: route + "EarthMozione.PNG",
-        text: "An IoT application that consist on a network of seismic sensor devices connected to each other providing feedback among them to alert with seconds of anticipation about an earthquake from a mobile application to the user.",
-        tech: "We use Android, Arduino and Huawei Cloud.",
-        teamWork: [
-            {
-                name: "Sergio Sanchez",
-                url: "https://github.com/searleser97"
-            },
-            {
-                name: "Cinthya Parra",
-                url: "https://github.com/DoloresPGz"
-            },
-            {
-                name: "Ivan Hernandez",
-                url: "https://github.com/Ivan-hdz"
-            }
-        ],
-        // thereIsLink: [github, demo, documentation, awards]
-        thereIsLink: [true, false, true, true],        
-        links: [
-            "https://github.com/abiisnn/EarthMozione",
-            "",
-            "https://abiisnn.github.io/Assets/pdf/EarthMozione.pdf",
-            "https://devpost.com/software/earthmozione-4fd7hq"
-        ]
-    },
-    { 
-        name: "Multicast Chat",
-        srcImage: route + "chat.png",
-        text: "A Web application that allow you send messages, images, emojis and files from a general room and also you can use a private room.",
-        tech: "We use Socket IO, JavaScript, HTML y CSS.",
-        
-        teamWork: [
-          {
-            name: "Enrique Ramos",
-            url: "https://github.com/brokenerk"
-          }
-        ],
-        // thereIsLink: [github, demo, documentation, awards]
-        thereIsLink: [true, true, true, true],        
-        links: [
-            "https://github.com/brokenerk/Chat-Multicast",
-            "https://chat-multicast.herokuapp.com/",
-            "https://github.com/brokenerk/Chat-Multicast/blob/master/p3.pdf",
-            ""
-        ]
-      },
-   {
-        name: "Imaginary Friends",
-        srcImage: route + "ImaginaryFriends.png",
-        text: "Mobile app and WIX application that allows the kids of all kind draw their imaginary friends to visualize them using augmented reality and keep in the app with the objective to improve social skills. This application is also capable of detecting the mood using IBM Watson tone analyzer.",
-        tech: "Android, WIX, IBM Watson.",
-        teamWork: [
-            {
-                name: "Sergio Sanchez",
-                url: "https://github.com/searleser97"
-            },
-            {
-                name: "Cinthya Parra",
-                url: "https://github.com/DoloresPGz"
-            },
-            {
-                name: "Ivan Hernandez",
-                url: "https://github.com/Ivan-hdz"
-            }
-        ],
-        // thereIsLink: [github, demo, documentation, awards]
-        thereIsLink: [true, true, true, true], 
-        links: [
-            "https://github.com/abiisnn/ImaginaryFriends",
-            "https://anicolass1300.wixsite.com/imaginaryfriends",
-            "https://abiisnn.github.io/Assets/pdf/ImaginaryFriends.pdf",
-            "https://devpost.com/software/imaginaryfriends"
-        ]
-    },
-    {
-        name: "Organize an Event",
-        srcImage: route + "OrganizeAnEvent.png",
-        text: "This is a minimum viable product for a web system to control assistance and documents to an academic ceremony. It allows us to pass assistance using bar codes and QR inside the web app. Also, it allows us to get the statistics of the event (in PDF) and to send the invitations through email. It allow to have differents types fo users (normal and admins).",
-        tech: "React, PHP and MySQL.",
-        teamWork: [
-            {
-                name: "Enrique Ramos",
-                url: "https://github.com/brokenerk"
-            },
-            {
-                name: "Oscar Rosas",
-                url: "https://soyoscarrh.github.io/"
-            }
-        ],
-        // thereIsLink: [github, demo, documentation, awards]
-        thereIsLink: [true, false, false, false], 
-        links: [
-            "https://github.com/SoyOscarRH/OrganizeAnEvent",
-            "",
-            "",
-            ""
-        ]
-    },
-    {
-      name: "Digital office",
-      srcImage: route + "digitalOffice.png",
-      text: "Web system that allows the users to generate different types of documents using Cryptographic services i.e. bills, memorandums and private memorandums, to sign each document related to the meeting that they had attended previously and to be able to have a register of all the documents, and meetings, that the worker/employee has signed, or has been given permission to check, through their history as users of this system.",
-      tech: "Python, Flask and MySQL.",
-      
-      teamWork: [
-        {
-          name: "Cesar Hernandez",
-          url: "https://github.com/llCUriel"
-        },
-        {
-          name: "Daniel Gonzalez",
-          url: "https://github.com/DanielDumile"
-        }
-      ],
-      // thereIsLink: [github, demo, documentation, awards]
-      thereIsLink: [true, false, true, false], 
-      links: [
-          "https://github.com/abiisnn/Digital-Office",
-          "",
-          "https://abiisnn.github.io/Assets/pdf/DigitalOffice.pdf",
-          ""
-      ]
-    },
-    {
-      name: "Star Cluster Algorithm",
-      srcImage: route + "Star.png",
-      text: "This is a unfinished project that implements the Brute Force Star Cluster Algorithm. From a big population of starts in the sky (currently in a 2D space), it finds the two of them with the minimum distance between each other. We put an animation of how the algorithm is supossed to be working when it calculates the distance from point to point. Now is zero optimized and takes a lot of time... but take a look!",
-    tech: "Vis.js, Anime.js, jQuery, JavaScript, Materialize.",
+  {
+    name: "Imaginary Friends",
+    srcImage: route + "ImaginaryFriends.png",
+    text: "Mobile app and WIX application that allows the kids of all kind draw their imaginary friends to visualize them using augmented reality and keep in the app with the objective to improve social skills. This application is also capable of detecting the mood using IBM Watson tone analyzer.",
+    tech: "Android, WIX, IBM Watson.",
     teamWork: [
         {
-          name: "Enrique Ramos",
-          url: "https://github.com/brokenerk"
+            name: "Sergio Sanchez",
+            url: "https://github.com/searleser97"
         },
         {
-          name: "Cinthya Parra",
-          url: "https://github.com/DoloresPGz"
+            name: "Cinthya Parra",
+            url: "https://github.com/DoloresPGz"
+        },
+        {
+            name: "Ivan Hernandez",
+            url: "https://github.com/Ivan-hdz"
         }
-      ],
-      // thereIsLink: [github, demo, documentation, awards]
-      thereIsLink: [true, true, false, false], 
-      links: [
-          "https://github.com/brokenerk/brokenerk.github.io/tree/master/projects/CumuloEstrellas",
-          "https://brokenerk.github.io/projects/CumuloEstrellas/index.html",
-          "",
-          ""
-      ]
+    ],
+    // thereIsLink: [github, demo, documentation, awards]
+    thereIsLink: [true, true, true, true], 
+    links: [
+        "https://github.com/abiisnn/ImaginaryFriends",
+        "https://anicolass1300.wixsite.com/imaginaryfriends",
+        "https://abiisnn.github.io/Assets/pdf/ImaginaryFriends.pdf",
+        "https://devpost.com/software/imaginaryfriends"
+    ]
+},
+  {
+    name: "Organize an Event",
+    srcImage: route + "OrganizeAnEvent.png",
+    text: "This is a minimum viable product for a web system to control assistance and documents to an academic ceremony. It allows us to pass assistance using bar codes and QR inside the web app. Also, it allows us to get the statistics of the event (in PDF) and to send the invitations through email. It allow to have differents types fo users (normal and admins).",
+    tech: "React, PHP and MySQL.",
+    teamWork: [
+        {
+            name: "Enrique Ramos",
+            url: "https://github.com/brokenerk"
+        },
+        {
+            name: "Oscar Rosas",
+            url: "https://soyoscarrh.github.io/"
+        }
+    ],
+    // thereIsLink: [github, demo, documentation, awards]
+    thereIsLink: [true, false, false, false], 
+    links: [
+        "https://github.com/SoyOscarRH/OrganizeAnEvent",
+        "",
+        "",
+        ""
+    ]
+},
+{
+  name: "Digital office",
+  srcImage: route + "digitalOffice.png",
+  text: "Web system that allows the users to generate different types of documents using Cryptographic services i.e. bills, memorandums and private memorandums, to sign each document related to the meeting that they had attended previously and to be able to have a register of all the documents, and meetings, that the worker/employee has signed, or has been given permission to check, through their history as users of this system.",
+  tech: "Python, Flask and MySQL.",
+  
+  teamWork: [
+    {
+      name: "Cesar Hernandez",
+      url: "https://github.com/llCUriel"
     },
+    {
+      name: "Daniel Gonzalez",
+      url: "https://github.com/DanielDumile"
+    }
+  ],
+  // thereIsLink: [github, demo, documentation, awards]
+  thereIsLink: [true, false, true, false], 
+  links: [
+      "https://github.com/abiisnn/Digital-Office",
+      "",
+      "https://abiisnn.github.io/Assets/pdf/DigitalOffice.pdf",
+      ""
+  ]
+},
+{
+  name: "Star Cluster Algorithm",
+  srcImage: route + "Star.png",
+  text: "This is a unfinished project that implements the Brute Force Star Cluster Algorithm. From a big population of starts in the sky (currently in a 2D space), it finds the two of them with the minimum distance between each other. We put an animation of how the algorithm is supossed to be working when it calculates the distance from point to point. Now is zero optimized and takes a lot of time... but take a look!",
+tech: "Vis.js, Anime.js, jQuery, JavaScript, Materialize.",
+teamWork: [
+    {
+      name: "Enrique Ramos",
+      url: "https://github.com/brokenerk"
+    },
+    {
+      name: "Cinthya Parra",
+      url: "https://github.com/DoloresPGz"
+    }
+  ],
+  // thereIsLink: [github, demo, documentation, awards]
+  thereIsLink: [true, true, false, false], 
+  links: [
+      "https://github.com/brokenerk/brokenerk.github.io/tree/master/projects/CumuloEstrellas",
+      "https://brokenerk.github.io/projects/CumuloEstrellas/index.html",
+      "",
+      ""
+  ]
+},
+   { 
+      name: "Earth Mozione",
+      srcImage: route + "EarthMozione.PNG",
+      text: "An IoT application that consist on a network of seismic sensor devices connected to each other providing feedback among them to alert with seconds of anticipation about an earthquake from a mobile application to the user.",
+      tech: "We use Android, Arduino and Huawei Cloud.",
+		teamWork: [
+			{
+				name: "Sergio Sanchez",
+				url: "https://github.com/searleser97"
+			},
+			{
+					name: "Cinthya Parra",
+					url: "https://github.com/DoloresPGz"
+			},
+			{
+					name: "Ivan Hernandez",
+					url: "https://github.com/Ivan-hdz"
+			}
+		],
+		// thereIsLink: [github, demo, documentation, awards]
+		thereIsLink: [true, false, true, true],        
+		links: [
+			"https://github.com/abiisnn/EarthMozione",
+			"",
+			"https://abiisnn.github.io/Assets/pdf/EarthMozione.pdf",
+			"https://devpost.com/software/earthmozione-4fd7hq"
+		]
+   },
+   { 
+		name: "Multicast Chat",
+		srcImage: route + "chat.png",
+		text: "A Web application that allow you send messages, images, emojis and files from a general room and also you can use a private room.",
+		tech: "We use Socket IO, JavaScript, HTML y CSS.",
+		
+		teamWork: [
+			{
+			name: "Enrique Ramos",
+			url: "https://github.com/brokenerk"
+			}
+		],
+		// thereIsLink: [github, demo, documentation, awards]
+		thereIsLink: [true, true, true, false],        
+		links: [
+			"https://github.com/brokenerk/Chat-Multicast",
+			"https://chat-multicast.herokuapp.com/",
+			"https://github.com/brokenerk/Chat-Multicast/blob/master/p3.pdf",
+			""
+		]
+   },
     {
       name: "SAEEB",
       srcImage: route + "saeeb.png",
@@ -176,20 +176,12 @@ const softwareData = [
       ]
     },
     { 
-      name: "Academic Programs", 
+      name: "Academic Program Management", 
       srcImage: route + "is.png",
       text: "A Web application which objective was to improve the way an Academic Program was created and managed at my university (IPN). We were in 3 teams: Analysis and Design, Developing and Testing. Allow you create and edit  a new Academic Program, when is accepted you can generate a PDF file with an specific format. ",
     tech: "Angular, PostgreSQL and LaTeX to full documentation.",
     
     teamWork: [
-        {
-          name: "Sergio Sanchez",
-          url: "https://github.com/searleser97"
-        },
-        {
-          name: "Enrique Ramos",
-          url: "https://github.com/brokenerk"
-        },
         {
           name: "Ivan Hernandez",
           url: "https://github.com/Ivan-hdz"
@@ -197,10 +189,6 @@ const softwareData = [
         {
           name: "J. Manuel Calva",
           url: "https://github.com/akotadi"
-        },
-        {
-          name: "Cinthya Parra",
-          url: "https://github.com/DoloresPGz"
         },
         {
           name: "And 16 more ...",

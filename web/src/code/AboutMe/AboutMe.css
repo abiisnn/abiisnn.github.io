@@ -1,0 +1,23 @@
+.rootAboutMe {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* background-color: red; */
+  }
+
+  .containerAboutMe {
+    justify-content: space-around;
+    align-content: center;
+    align-items: stretch;
+    /* background-color: red; */
+  }
+
+.imageAboutMeContainer {
+    width: 500 px;
+    height: 500 px;
+    justify-content: space-around;
+    align-content: center;
+    align-items: stretch;
+    /* background-color: cyan; */
+}

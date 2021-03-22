@@ -1,18 +1,15 @@
-import './App.css';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import Container from '@material-ui/core/Container';
-import Projects from "../Projects/Projects"
 import React from 'react';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import Projects from "../Projects/Projects"
+import AboutMe from "../AboutMe/AboutMe"
 
 function App() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="lg"  style={{ backgroundColor: '#cfe8fc'}}>
+        <AboutMe />
         <Projects />
-      </Container>
     </React.Fragment>
-      
   );
 }
 
