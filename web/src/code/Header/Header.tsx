@@ -27,7 +27,7 @@ function Header() {
             <Typography variant="h6" className={classes.title}>
               Abigail Nicolas
             </Typography>
-            <Button href="documents/Abigail_Nicolas_Resume" rel="noopener noreferrer" target="_blank" color="inherit">
+            <Button href="documents/Abigail_Nicolas_Resume.pdf" rel="noopener noreferrer" target="_blank" color="inherit">
               Resume
             </Button>
           </Toolbar>
