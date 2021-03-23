@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.appBar {
-  background-color: blueviolet;
-}
-
 .content {
-  background-color: red;
   width: 100%;
 }

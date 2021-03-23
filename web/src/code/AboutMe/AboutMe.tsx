@@ -13,7 +13,7 @@ import "./AboutMe.css";
 
 const useStyles = makeStyles((theme) => ({
     heroContent: {
-      backgroundColor: '#C39BD3',
+      backgroundColor: '#EDBBDC',
       padding: theme.spacing(8, 0, 6),
     },
     avatar: {

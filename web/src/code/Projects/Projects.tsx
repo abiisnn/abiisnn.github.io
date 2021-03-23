@@ -51,6 +51,12 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
+let i = 0;
+function changeColor() {
+    i = i % 6;
+    return colorsPalette[i++];
+}
+
 function Projects() {
     const classes = useStyles();
     return (
@@ -78,7 +84,7 @@ function Projects() {
                                         />
                                         
                                         <CardContent className={classes.cardContent}>
-                                            <div className={classes.title} style={{background: '#C39BD3'}}>
+                                            <div className={classes.title} style={{background: changeColor()}}>
                                                 <hr></hr>
                                                 <Typography variant="h5" component="h2">
                                                     {cardData.name}
