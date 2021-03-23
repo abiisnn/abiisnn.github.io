@@ -1,23 +1,35 @@
+.contentAboutMe {
+  background: #CB356B;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #BD3F32, #CB356B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: .8;
+}
 .rootAboutMe {
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
     /* background-color: red; */
   }
 
-  .containerAboutMe {
-    justify-content: space-around;
-    align-content: center;
-    align-items: stretch;
-    /* background-color: red; */
+  .banner {
+    background-color: black;
+    width: 95%;
+    margin: 2px;
+    border-radius: 10px;
+    /* color: white; */
   }
+.banner-text {
+    opacity: .8;
+    color: white;
+}
 
-.imageAboutMeContainer {
-    width: 500 px;
-    height: 500 px;
-    justify-content: space-around;
-    align-content: center;
-    align-items: stretch;
-    /* background-color: cyan; */
+.links {
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 35%;
+  margin: auto;
 }

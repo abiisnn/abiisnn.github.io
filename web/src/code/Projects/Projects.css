@@ -1,4 +1,4 @@
-.root {
+root {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -7,37 +7,4 @@
 .newSection {
   text-align: center;
   justify-content: center;
-  /* background-color: cyan; */
-}
-
-/* =======================================================00 */
-
-.cardsContainer {
-  justify-content: space-around;
-  align-content: center;
-  align-items: stretch;
-  /* background-color: red; */
-}
-.cardTitle {
-  /* width: 375 px; */
-  text-align: center;
-  justify-content: center;
-}
-
-.cardText {
-  /* background-color: cyan; */
-  width: 50 px;
-  /* height: 1000 px; */
-  
-}
-
-.chipContainer {
-  /* background-color: aqua; */
-  width: 375px;
-  height: 30px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
 }

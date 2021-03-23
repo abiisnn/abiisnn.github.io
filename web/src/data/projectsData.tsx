@@ -260,6 +260,7 @@ teamWork: [
 ];
 
 route = 'images/networks/';
+
 const networkData = [
     {
         name: "Blog",
@@ -430,15 +431,15 @@ const cryptoData = [
 
 export const projectData = [
     {
-        title: "Projects I'm proud of <3",
+        title: "Projects <3",
         information: softwareData
     },
     {
-      title: "Networks Development",
+      title: "Programs about Networks",
       information: networkData
     },
     {
-        title: "Cryptography",
+        title: "Programas about Cryptography",
         information: cryptoData
     }
 ]
