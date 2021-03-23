@@ -14,11 +14,7 @@ import "./AboutMe.css";
 const useStyles = makeStyles((theme) => ({
     heroContent: {
       backgroundColor: '#C39BD3',
-      // backgroundColor: theme.palette.background.paper,
       padding: theme.spacing(8, 0, 6),
-    },
-    heroButtons: {
-      marginTop: theme.spacing(4),
     },
     avatar: {
         width: '100%',
@@ -56,7 +52,7 @@ function AboutMe() {
                     Hi, I'm Abigail Nicolas Sayago
                   </Typography>
                   <Typography component="h5" variant="h5">
-                    A Software Engineer, Junior Developer, Roockie Competitive Programmer & Girl in tech. 
+                    A Software Engineer, Junior Developer, Rookie Competitive Programmer & Girl in tech. 
                     Lover of UI & Web Development. 
                   </Typography>
                   <br/>
@@ -83,5 +79,4 @@ function AboutMe() {
           </div>
     );
   }
-  
 export default AboutMe;

@@ -3,7 +3,7 @@ const softwareData = [
   {
     name: "Imaginary Friends",
     srcImage: route + "ImaginaryFriends.png",
-    text: "Mobile app and WIX application that allows the kids of all kind draw their imaginary friends to visualize them using augmented reality and keep in the app with the objective to improve social skills. This application is also capable of detecting the mood using IBM Watson tone analyzer.",
+    text: "Mobile App and WIX application that allows the kids of all kind draw their imaginary friends to visualize them using augmented reality and keep in the app with the objective to improve social skills. This application is also capable of detecting the mood using IBM Watson tone analyzer.",
     tech: "Android, WIX, IBM Watson.",
     teamWork: [
         {
@@ -24,7 +24,7 @@ const softwareData = [
     links: [
         "https://github.com/abiisnn/ImaginaryFriends",
         "https://anicolass1300.wixsite.com/imaginaryfriends",
-        "https://abiisnn.github.io/Assets/pdf/ImaginaryFriends.pdf",
+        "https://abiisnn.github.io/documents/ImaginaryFriends.pdf",
         "https://devpost.com/software/imaginaryfriends"
     ]
 },
