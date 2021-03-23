@@ -39,7 +39,7 @@ function AboutMe() {
             <Grid container spacing={4} justify="center" >
               
               <Grid item xs={12} sm={6} md={4} lg={3} justify="center">
-                <Avatar alt="Abigail" src="/images/avatar/4.jpg" className={classes.avatar} />
+                <Avatar alt="Abigail" src="/images/avatar/abii.jpg" className={classes.avatar} />
               </Grid>
               
               <Grid item xs={12} sm={5} md={8} lg={7}>
@@ -66,7 +66,7 @@ function AboutMe() {
                   <a href="https://github.com/abiisnn" rel="noopener noreferrer" target="_blank">
                       <GitHubIcon style={{ fontSize: 40 }}  />
                   </a>
-                  <a href="www.linkedin.com/in/abigail-nic-say" rel="noopener noreferrer" target="_blank">
+                  <a href="https://www.linkedin.com/in/abigail-nicolas-sayago-0567a2185/" rel="noopener noreferrer" target="_blank">
                       <LinkedInIcon style={{ fontSize: 40 }} />
                   </a>
                   <a href="https://twitter.com/Abii_Snn" rel="noopener noreferrer" target="_blank">
